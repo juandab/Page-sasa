@@ -1,0 +1,118 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	background-image: url(../img/fondo.jpg);
+}
+header{
+	float: left;
+	width: 100%;
+	
+}
+#logotipo{
+	display: inline-block;
+	float: left;
+}
+#logotipo img{
+	width: 110px;
+	height: 80px;
+}
+#name {
+	margin: 25px 0px;
+	float: left;
+	display: inline-block;
+}
+#name a{
+	font-family: 'Coiny', cursive;
+	text-decoration: none;
+	color: #fff;
+	font-size: 25px;
+}
+#table{
+	float: left;
+	margin:  0px 150px;
+}
+#table ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 32px 50px;
+	float: left;
+}
+#table ul li a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: helvetica;
+}
+#table ul li #Inicio{
+	color:#FC6000; 
+}
+#table ul li a:hover{
+	color: #FC6000;
+}
+#redes ul li{
+	float: right;
+	list-style: none;
+	margin: 30px 10px;
+}
+#redes ul li img{
+	float: left;
+	display: inline-block;
+	width: 40px;
+	height: 30px;
+}
+#wrap {
+	width: 100%;
+	margin: auto;
+	background-image: url("../img/natural.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+#wrap article p{
+	margin: 0px 15px;
+	font-family: 'Acme', sans-serif;
+	font-size: 120px;
+	color: #000000;
+	text-align: left;
+}
+#tarjeta {
+	margin: 0px 150px;
+	width: 350px;
+	background-image: url(../img/fondo.jpg);
+	padding: 20px;
+	border-radius: 10px;
+}
+#tarjeta p{
+	width: 290px;
+	text-align: left;
+	color: #ffffff;
+	font-size: 50px;
+	font-family: 'Bree Serif', serif;
+}
+#tarjeta #p2{
+	text-align: left;
+	font-size: 25px;
+	font-family:'Pacifico', cursive;
+}
+#tarjeta a{
+	width: 180px;
+	float: left;
+	display: block;
+	text-decoration: none;
+	color: #ffffff;
+	background-color:#FC6000;
+	padding: 10px; 
+	margin: 0px 250px;
+	font-family: 'Bree Serif', serif;
+	font-size: 25px;
+	border-radius: 5px;
+}
+#tarjeta a:hover{
+	box-shadow: 2px 5px #fff;
+}
+#foto img{
+	width: 100%;
+	background-image: url(../img/foto.jpg);
+
+}
