@@ -3,12 +3,14 @@
 	padding: 0px;
 }
 body{
-	background-image: url(../img/fondo.jpg);
+	background-color: #2d2d2d;
 }
 header{
 	float: left;
-	width: 100%;
-	
+	width: 100%;	
+}
+header:hover{
+	background-color: #005D8C;
 }
 #logotipo{
 	display: inline-block;
@@ -46,10 +48,10 @@ header{
 	font-family: helvetica;
 }
 #table ul li #Inicio{
-	color:#FC6000; 
+	color:#ccc; 
 }
 #table ul li a:hover{
-	color: #FC6000;
+	color: #ccc;
 }
 #redes ul li{
 	float: right;
@@ -79,14 +81,14 @@ header{
 #tarjeta {
 	margin: 0px 150px;
 	width: 350px;
-	background-image: url(../img/fondo.jpg);
+	background-color: #ffffff;
 	padding: 20px;
 	border-radius: 10px;
 }
 #tarjeta p{
 	width: 290px;
 	text-align: left;
-	color: #ffffff;
+	color: #000000;
 	font-size: 50px;
 	font-family: 'Bree Serif', serif;
 }
@@ -100,7 +102,7 @@ header{
 	float: left;
 	display: block;
 	text-decoration: none;
-	color: #ffffff;
+	color: #000000;
 	background-color:#FC6000;
 	padding: 10px; 
 	margin: 0px 250px;
@@ -109,10 +111,104 @@ header{
 	border-radius: 5px;
 }
 #tarjeta a:hover{
-	box-shadow: 2px 5px #fff;
+	box-shadow: 2px 5px #000;
 }
-#foto img{
-	width: 100%;
-	background-image: url(../img/foto.jpg);
+.slider{
+			width: 95%;
+			margin: auto;
+			overflow: hidden;
+		}
+		.slider ul{
+			margin: 15px;
+			display: flex;
+			padding: 0px;
+			width: 400%;
 
+			animation: cambio 20s infinite alternate;
+		}
+		.slider li {
+			width: 1000%;
+			list-style: none;
+		}
+		.slider img {
+			border-radius: 10px;
+			width: 100%;
+			height: 495px;
+		}
+
+		@keyframes cambio{
+			0% {margin-left: 0;}
+			20% {margin-left: 0;}
+
+			25%{margin-left: -100%;}
+			45%{margin-left: -100%;}
+
+			50%{margin-left: -200%;}
+			70%{margin-left: -200%;}
+
+			75%{margin-left: -300%;}
+			100%{margin-left:-300%;}
+
+		}
+#lugares {
+	float: left;
+	margin: auto;
+	width: 100%;
+	background-color: #ffffff;
+}
+
+#texto {
+	color: #696969;
+	width: 960px;
+	margin:auto;
+	padding: 50px;
+	text-align: center;
+}
+#lugares div{
+	display: inline-block;
+	margin: 0px 0px 40px 45px;
+}
+#lugares #travel {
+
+	float: left;
+	padding: 120px;
+	background-image: url(../img/travel.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #travel a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+
+#lugares #eat {
+	float: left;
+	padding: 120px;
+	background-image: url(../img/eat.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #eat a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+#lugares #relax {
+	float: left;
+	padding: 120px;
+	background-image: url(../img/relax.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #relax a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
 }
