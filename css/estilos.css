@@ -215,3 +215,55 @@ header:hover{
 	font-size: 25px;
 	background-color: #ffffff;
 }
+
+@media screen and (min-width:3600px){
+	#lugares div{
+	display: inline-block;
+	margin: 0px 0px 40px 6%;
+}
+#lugares #travel {
+
+	float: left;
+	padding: 120px;
+	background-image: url(../img/travel.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #travel a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+
+#lugares #eat {
+	float: left;
+	padding: 120px;
+	background-image: url(../img/eat.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #eat a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+#lugares #relax {
+	float: left;
+	padding: 120px;
+	background-image: url(../img/relax.jpg);
+	background-repeat: no-repeat;
+	background-size: 360px 300px;
+}
+#lugares #relax a{
+	padding: 15px 45px;
+	text-decoration: none;
+	color: #2CB8FF;
+	font-size: 25px;
+	background-color: #ffffff;
+}
+
+}
