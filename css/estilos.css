@@ -216,7 +216,7 @@ header:hover{
 	background-color: #ffffff;
 }
 
-@media screen and (min-width:390px){
+@media screen and (min-width:1550px){
 	#lugares div{
 	display: inline-block;
 	margin: 0px 0px 40px 6%;
